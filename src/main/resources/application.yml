@@ -48,7 +48,7 @@ spring:
           predicates:
             - Path=/deliveries/**,/cancellations/**
         - id: mypage
-          uri: http://mypae:8080
+          uri: http://mypage:8080
           predicates:
             - Path= /mypages/**
       globalcors:
